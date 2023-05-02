@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/start"
+    android:layout_height="match_parent"
+    tools:context=".view.PenaltyFragment">
+
+
+    <AbsoluteLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="297dp"
+        android:layout_y="0dp"
+        android:background="@drawable/vorota5new" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/id_vorota_2"
+            android:layout_width="46dp"
+            android:layout_height="wrap_content"
+            android:layout_x="33dp"
+            android:layout_y="63dp" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/id_vorota_4"
+            android:layout_width="46dp"
+            android:layout_height="wrap_content"
+            android:layout_x="329dp"
+            android:layout_y="62dp" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/id_vorota_1"
+            android:layout_width="46dp"
+            android:layout_height="wrap_content"
+            android:layout_x="30dp"
+            android:layout_y="165dp" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/id_vorota_5"
+            android:layout_width="46dp"
+            android:layout_height="wrap_content"
+            android:layout_x="334dp"
+            android:layout_y="164dp" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/id_vorota_3"
+            android:layout_width="46dp"
+            android:layout_height="wrap_content"
+            android:layout_x="182dp"
+            android:layout_y="59dp" />
+
+    </AbsoluteLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:layout_height="82dp">
+
+        <ImageView
+            android:layout_width="65dp"
+            android:id="@+id/id_penalty_logo_my_team"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:layout_height="67dp" />
+
+        <TextView
+            android:id="@+id/id_penalty_match"
+            android:layout_width="260dp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:text="MCI VS RMA"
+            android:textSize="35dp"
+            android:layout_height="match_parent" />
+
+        <ImageView
+            android:layout_width="65dp"
+            android:id="@+id/id_penalty_logo_opponent"
+            android:layout_gravity="center"
+            android:layout_height="67dp"/>
+
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:background="#f75252"
+        android:id="@+id/id_penalty_goal_or_not"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:text="GOAL!!!"
+        android:textSize="30dp"
+        android:layout_height="76dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:background="#8636fb"
+        android:orientation="horizontal"
+        android:layout_height="70dp">
+
+        <TextView
+            android:layout_width="50dp"
+            android:background="@color/white"
+            android:id="@+id/id_penalty_pr1"
+            android:layout_marginLeft="40dp"
+            android:layout_gravity="center"
+            android:layout_height="50dp"/>
+        <TextView
+            android:layout_width="50dp"
+            android:background="@color/white"
+            android:id="@+id/id_penalty_pr2"
+            android:layout_marginLeft="20dp"
+            android:layout_gravity="center"
+            android:layout_height="50dp"/>
+        <TextView
+            android:layout_width="50dp"
+            android:background="@color/white"
+            android:id="@+id/id_penalty_pr3"
+            android:layout_marginLeft="20dp"
+            android:layout_gravity="center"
+            android:layout_height="50dp"/>
+        <TextView
+            android:layout_width="50dp"
+            android:background="@color/white"
+            android:id="@+id/id_penalty_pr4"
+            android:layout_marginLeft="20dp"
+            android:layout_gravity="center"
+            android:layout_height="50dp"/>
+        <TextView
+            android:layout_width="50dp"
+            android:background="@color/white"
+            android:id="@+id/id_penalty_pr5"
+            android:layout_marginLeft="20dp"
+            android:layout_gravity="center"
+            android:layout_height="50dp"/>
+
+    </LinearLayout>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/id_penalty_again"
+        android:layout_width="169dp"
+        android:layout_height="58dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="#f75252"
+        android:gravity="center"
+        android:text="again"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:visibility="gone" />
+
+
+</LinearLayout>

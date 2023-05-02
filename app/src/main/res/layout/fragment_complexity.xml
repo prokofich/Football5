@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/menu3"
+    android:layout_height="match_parent"
+    tools:context=".view.ComplexityFragment">
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/id_complexity_hard"
+        android:layout_width="200dp"
+        android:textColor="@color/white"
+        android:layout_height="62dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="330dp"
+        android:background="#ff7300"
+        android:gravity="center"
+        android:text="hard"
+        android:textSize="42dp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="200dp"
+        android:id="@+id/id_complexity_medium"
+        android:text="medium"
+        android:textColor="@color/white"
+        android:textSize="42dp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:background="#ff7300"
+        android:layout_height="62dp"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="200dp"
+        android:id="@+id/id_complexity_easy"
+        android:text="easy"
+        android:textColor="@color/white"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textSize="42dp"
+        android:background="#ff7300"
+        android:layout_height="62dp"/>
+
+
+
+
+
+
+
+</LinearLayout>

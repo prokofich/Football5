@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="#8636fb"
+    android:layout_height="match_parent"
+    tools:context=".view.MyTeamFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="144dp">
+        <LinearLayout
+            android:layout_width="205dp"
+            android:background="#32b3f3"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/id_logo_mancity"
+                android:layout_width="120dp"
+                android:background="@drawable/mancity"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center"
+                android:layout_height="120dp"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:background="#f2121d"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/id_logo_liverpool"
+                android:layout_width="98dp"
+                android:layout_height="131dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/liverpool" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="144dp">
+
+        <LinearLayout
+            android:layout_width="205dp"
+            android:background="#ffffff"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/id_logo_madrid"
+                android:layout_width="184dp"
+                android:layout_height="120dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/madrid" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:background="#8636fb"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/id_logo_barcelona"
+                android:layout_width="143dp"
+                android:layout_height="120dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/barcelona" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="144dp">
+
+        <LinearLayout
+            android:layout_width="205dp"
+            android:background="#fff500"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/id_logo_dortmund"
+                android:background="@drawable/dortmund"
+                android:layout_width="120dp"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center"
+                android:layout_height="120dp"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:background="#f75252"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/id_logo_bayern"
+                android:layout_width="190dp"
+                android:layout_height="120dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/bayern" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="144dp">
+
+        <LinearLayout
+            android:layout_width="205dp"
+            android:background="#f75252"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/id_logo_milan"
+                android:layout_width="145dp"
+                android:layout_height="127dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/milan" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:background="#161414"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/id_logo_juventus"
+                android:layout_width="138dp"
+                android:layout_height="127dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/juventus" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:id="@+id/id_my_team_name"
+        android:textSize="30dp"
+        android:text="Your Team: "
+        android:textColor="@color/black"
+        android:layout_height="71dp"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="201dp"
+        android:id="@+id/id_team_next"
+        android:background="@color/black"
+        android:textColor="@color/white"
+        android:layout_height="68dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="NEXT"
+        android:textSize="40dp" />
+
+
+
+</LinearLayout>

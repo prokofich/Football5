@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/menu1"
+    android:layout_height="match_parent"
+    tools:context=".view.MenuFragment">
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/id_menu_p1"
+        android:layout_width="263dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="260dp"
+        android:background="#ff7300"
+        android:gravity="center"
+        android:text="penalty"
+        android:textColor="@color/white"
+        android:textSize="42dp" />
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/id_menu_records"
+        android:layout_width="205dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:background="#ff7300"
+        android:gravity="center"
+        android:text="records"
+        android:textColor="@color/white"
+        android:textSize="42dp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/id_menu_exit"
+        android:layout_width="103dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="70dp"
+        android:background="#ff7300"
+        android:gravity="center"
+        android:text="exit"
+        android:textColor="@color/white"
+        android:textSize="32dp" />
+
+</LinearLayout>

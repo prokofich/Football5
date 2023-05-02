@@ -1,0 +1,12 @@
+package com.example.football5
+
+lateinit var MAIN:MainActivity
+var PENALTY = "PENALTY"
+var PENALTY_RECORD = "PENALTY_RECORD"
+var MY_TEAM_NAME = "MY_TEAM_NAME"
+var COMPLEXITY = "COMPLEXITY"
+var LISTTEAMS = mutableListOf<String>("MCI","LIV","RMA","BAR","BOR","BAY","MIL","JUV")
+var RECORD_EASY = "RECORD_EASY"
+var RECORD_MEDIUM = "RECORD_MEDIUM"
+var RECORD_HARD = "RECORD_HARD"
+var APP_PREFERENCES = "APP_PREFERENCES"

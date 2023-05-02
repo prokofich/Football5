@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/menu2"
+    android:layout_height="match_parent"
+    tools:context=".view.RecordsFragment">
+
+    <TextView
+        android:id="@+id/id_record_easy"
+        android:layout_width="271dp"
+        android:text="Record easy: 5 "
+        android:textSize="30dp"
+        android:textColor="@color/white"
+        android:background="#ff7300"
+        android:layout_marginTop="240dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:gravity="center" />
+    <TextView
+        android:layout_width="271dp"
+        android:id="@+id/id_record_medium"
+        android:textSize="30dp"
+        android:text="Record medium: 5 "
+        android:textColor="@color/white"
+        android:background="#ff7300"
+        android:layout_marginTop="20dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:gravity="center" />
+    <TextView
+        android:layout_width="271dp"
+        android:id="@+id/id_record_hard"
+        android:textSize="30dp"
+        android:textColor="@color/white"
+        android:background="#ff7300"
+        android:text="Record hard: 5 "
+        android:layout_marginTop="20dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:gravity="center" />
+
+
+
+</LinearLayout>
